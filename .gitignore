@@ -1,0 +1,16 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+
+# Build output (keep game assets in bin/Debug so the game runs after building)
+obj/
+**/bin/**/*.dll
+**/bin/**/*.xml
+**/bin/**/*.pdb
+**/bin/**/*.exe
+**/bin/**/*.exe.config
+**/bin/Release/
+
+# NuGet packages (restored automatically by Visual Studio)
+packages/
